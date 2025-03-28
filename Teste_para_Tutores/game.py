@@ -590,7 +590,7 @@ def draw_game():
 
     if player.invincibility_timer > 0:
         time_left = player.invincibility_timer // 60  
-        screen.draw.text(f"Invencibility: {time_left}s", center=(WIDTH // 2, HEIGHT // 2 - 20), fontsize=30, color="blue")
+        screen.draw.text(f"Invincibility: {time_left}s", center=(WIDTH // 2, HEIGHT // 2 - 20), fontsize=30, color="blue")
         
 def draw_victory_screen():
     screen.clear()
